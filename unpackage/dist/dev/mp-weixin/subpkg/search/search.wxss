@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.uni-searchbar {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding: 16rpx;
+  /* 将默认的 #FFFFFF 改为 #C00000 */
+  background-color: #c00000;
+}
+.search-box {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.goods-list {
+  margin: 0 5px;
+}
+.goods-list .goods-item {
+  font-size: 12px;
+  padding: 13px 0;
+  border-bottom: 1px solid #efefef;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.goods-list .goods-item .goods-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 3px;
+}
+

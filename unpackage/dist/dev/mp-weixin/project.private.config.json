@@ -11,6 +11,13 @@
           "name": "pages/cate/cate",
           "pathName": "pages/cate/cate",
           "query": ""
+        },
+        {
+          "name": "",
+          "pathName": "subpkg/search/search",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
         }
       ]
     }

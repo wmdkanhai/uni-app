@@ -46,13 +46,22 @@
 				}
 
 			}
-		]
+		    ,{
+                    "path" : "search/search",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
 	}],
 	"globalStyle": {
 		"backgroundTextStyle": "light",
-		"navigationBarBackgroundColor": "#ffffff",
+		"navigationBarBackgroundColor": "#C00000",
 		"navigationBarTitleText": "wmding本地生活",
-		"navigationBarTextStyle": "black"
+		"navigationBarTextStyle": "white"
 	},
 	"tabBar": {
 		"selectedColor": "#C00000",
